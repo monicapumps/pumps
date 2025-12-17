@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hung Pump | HUNG PUMP INDUSTRIAL CO., LTD.</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Roboto', sans-serif; }
+        .hero-bg {
+            background-image: linear-gradient(rgba(0, 51, 102, 0.8), rgba(0, 51, 102, 0.7)), url('https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        .scroll-smooth { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 scroll-smooth">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md fixed w-full z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <div class="text-xl md:text-2xl font-bold text-blue-900 flex items-center gap-2">
+                    <i class="fa-solid fa-water"></i> HUNG PUMP
+                </div>
+            </div>
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-gray-600">
+                <a href="#home" class="hover:text-blue-600 transition">Home</a>
+                <a href="#new-products" class="hover:text-blue-600 transition">New Products</a>
+                <a href="#contact" class="px-5 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition">Contact Us</a>
+            </div>
+            <button class="md:hidden text-gray-600 focus:outline-none">
+                <i class="fa-solid fa-bars text-2xl"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-bg h-screen flex items-center text-white pt-20">
+        <div class="container mx-auto px-6 text-center md:text-left">
+            <div class="md:w-3/4">
+                <span class="bg-blue-500 text-xs font-bold px-3 py-1 rounded uppercase tracking-wide mb-4 inline-block">Made in Taiwan</span>
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+                    HUNG PUMP INDUSTRIAL CO., LTD.
+                </h1>
+                <p class="text-lg md:text-2xl mb-8 text-gray-200">
+                    Innovating Water Solutions Since 1989. <br>
+                    Introducing the new silent <span class="text-yellow-400 font-bold">GCB Series</span>.
+                </p>
+                <div class="flex flex-col md:flex-row gap-4 justify-center md:justify-start">
+                    <a href="#new-products" class="px-8 py-4 bg-white text-blue-900 font-bold rounded shadow hover:bg-gray-100 transition">
+                        See New Products
+                    </a>
+                    <a href="#contact" class="px-8 py-4 border-2 border-white text-white font-bold rounded hover:bg-white hover:text-blue-900 transition">
+                        Contact Monica
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Showcase -->
+    <section id="new-products" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <div class="flex justify-between items-end mb-12">
+                <div>
+                    <h2 class="text-3xl font-bold text-gray-900 mb-2">Featured Products</h2>
+                    <p class="text-gray-600">Highlighting our latest innovation and best sellers.</p>
+                </div>
+                <a href="https://hungpump.en.taiwantrade.com/product-catalog/all-products.html" target="_blank" class="hidden md:inline-block text-blue-600 font-semibold hover:underline">
+                    View Full Catalog <i class="fa-solid fa-arrow-right ml-1"></i>
+                </a>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- NEW Product: GCB Series -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg border-2 border-blue-500 hover:shadow-2xl transition group relative">
+                    <div class="absolute top-0 right-0 bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-bl-lg z-20">
+                        NEW ARRIVAL
+                    </div>
+                    <div class="h-64 bg-gray-200 flex items-center justify-center relative overflow-hidden">
+                        <div class="absolute inset-0 bg-blue-900/10 group-hover:bg-blue-900/0 transition z-10"></div>
+                        <i class="fa-solid fa-bolt text-6xl text-blue-600"></i>
+                         <!-- Placeholder image for GCB -->
+                        <img src="https://images.unsplash.com/photo-1518458028785-8fbcd101ebb9?auto=format&fit=crop&q=80&w=800" alt="GCB Series Pump" class="absolute inset-0 w-full h-full object-cover opacity-40 mix-blend-multiply">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2 text-blue-900">GCB Series</h3>
+                        <p class="text-sm font-semibold text-blue-600 mb-3">Silent Submersible BLDC Grinder Pump</p>
+                        <p class="text-gray-600 text-sm mb-4">
+                            The smartest solution for pressure sewage. Features <strong>BLDC motor technology</strong> for extremely silent operation, high starting torque, and a unique anti-clogging reverse jog function.
+                        </p>
+                        <ul class="text-sm text-gray-500 mb-6 space-y-1">
+                            <li><i class="fa-solid fa-check text-green-500 mr-2"></i><strong>Extremely Silent</strong></li>
+                            <li><i class="fa-solid fa-check text-green-500 mr-2"></i>Smart Reverse (Anti-Clog)</li>
+                            <li><i class="fa-solid fa-check text-green-500 mr-2"></i>Energy Efficient</li>
+                        </ul>
+                        <button onclick="scrollToContact('GCB Series')" class="w-full py-2 bg-blue-600 text-white rounded font-semibold hover:bg-blue-700 transition">Inquire This Item</button>
+                    </div>
+                </div>
+
+                <!-- Product 2: Gardening Pumps -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition group">
+                    <div class="h-64 bg-gray-200 flex items-center justify-center relative overflow-hidden">
+                        <i class="fa-solid fa-leaf text-6xl text-gray-400"></i>
+                         <img src="https://images.unsplash.com/photo-1596627689139-299f056f7e44?auto=format&fit=crop&q=80&w=800" alt="Gardening Pump" class="absolute inset-0 w-full h-full object-cover opacity-50 mix-blend-multiply">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Gardening Pumps</h3>
+                        <p class="text-gray-600 text-sm mb-4">
+                            Reliable pumps designed for 24/7 continuous operation. Perfect for fish ponds, waterfalls, and landscape irrigation.
+                        </p>
+                        <ul class="text-sm text-gray-500 mb-6 space-y-1">
+                            <li><i class="fa-solid fa-check text-green-500 mr-2"></i>Continuous Duty</li>
+                            <li><i class="fa-solid fa-check text-green-500 mr-2"></i>Oil-free options</li>
+                            <li><i class="fa-solid fa-check text-green-500 mr-2"></i>Eco-Friendly</li>
+                        </ul>
+                        <button onclick="scrollToContact('Gardening Pumps')" class="w-full py-2 border border-blue-600 text-blue-600 rounded font-semibold hover:bg-blue-600 hover:text-white transition">Inquire Now</button>
+                    </div>
+                </div>
+
+                <!-- Product 3: Stainless Steel Pumps -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition group">
+                    <div class="h-64 bg-gray-200 flex items-center justify-center relative overflow-hidden">
+                        <i class="fa-solid fa-industry text-6xl text-gray-400"></i>
+                        <img src="https://images.unsplash.com/photo-1565514020126-5b6eb0a4e3fa?auto=format&fit=crop&q=80&w=800" alt="Stainless Steel Pump" class="absolute inset-0 w-full h-full object-cover opacity-50 mix-blend-multiply">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Stainless Steel Pumps</h3>
+                        <p class="text-gray-600 text-sm mb-4">
+                            Constructed with SUS304/316 stainless steel for superior corrosion resistance. Suitable for chemical and medical wastewater.
+                        </p>
+                        <ul class="text-sm text-gray-500 mb-6 space-y-1">
+                            <li><i class="fa-solid fa-check text-green-500 mr-2"></i>Corrosion Resistant</li>
+                            <li><i class="fa-solid fa-check text-green-500 mr-2"></i>Acid & Alkali Handling</li>
+                            <li><i class="fa-solid fa-check text-green-500 mr-2"></i>Heavy Duty</li>
+                        </ul>
+                        <button onclick="scrollToContact('Stainless Steel Pumps')" class="w-full py-2 border border-blue-600 text-blue-600 rounded font-semibold hover:bg-blue-600 hover:text-white transition">Inquire Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Representative Profile & Contact Section -->
+    <section id="contact" class="py-16 bg-blue-900 text-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col lg:flex-row items-start gap-12">
+                
+                <!-- Personal Info -->
+                <div class="lg:w-1/2">
+                    <div class="flex items-center gap-6 mb-8">
+                        <div class="w-24 h-24 bg-gray-300 rounded-full flex-shrink-0 border-4 border-white overflow-hidden">
+                            <img src="https://ui-avatars.com/api/?name=Monica+Wei&background=random&size=200" alt="Monica Wei" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h2 class="text-3xl font-bold">Monica Wei</h2>
+                            <p class="text-blue-200 text-lg">HUNG PUMP INDUSTRIAL CO., LTD.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="space-y-4 text-lg">
+                        <p class="flex items-start gap-3">
+                            <i class="fa-solid fa-location-dot mt-1 text-blue-400"></i>
+                            <span>No.16, Lianming St., Bade Dist., Taoyuan City 334034, Taiwan (R.O.C.)</span>
+                        </p>
+                        <p class="flex items-center gap-3">
+                            <i class="fa-solid fa-phone text-blue-400"></i>
+                            <a href="tel:+88633713969" class="hover:text-white transition">+886-3-371-3969</a>
+                        </p>
+                        <p class="flex items-center gap-3">
+                            <i class="fa-solid fa-fax text-blue-400"></i>
+                            <span>+886-3-371-3996</span>
+                        </p>
+                        <p class="flex items-center gap-3">
+                            <i class="fa-brands fa-whatsapp text-green-400"></i>
+                            <a href="https://wa.me/886988773123" target="_blank" class="hover:text-white transition">+886 988 773 123</a>
+                        </p>
+                        <div class="pt-4 border-t border-blue-800 mt-4">
+                            <p class="flex items-center gap-3 mb-2">
+                                <i class="fa-solid fa-envelope text-yellow-400"></i>
+                                <a href="mailto:sales01@hungpump.com" class="hover:text-yellow-400 transition">sales01@hungpump.com</a>
+                            </p>
+                            <p class="flex items-center gap-3">
+                                <i class="fa-solid fa-envelope text-yellow-400"></i>
+                                <a href="mailto:monica@pumps.com.tw" class="hover:text-yellow-400 transition">monica@pumps.com.tw</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Simple Contact Form -->
+                <div class="lg:w-1/2 bg-white text-gray-800 p-8 rounded-xl shadow-lg w-full">
+                    <h3 class="text-2xl font-bold mb-4 text-blue-900">Send me a message</h3>
+                    <form>
+                        <div class="grid md:grid-cols-2 gap-4 mb-4">
+                            <input type="text" class="w-full px-4 py-3 rounded bg-gray-100 border focus:outline-none focus:border-blue-500" placeholder="Name">
+                            <input type="text" class="w-full px-4 py-3 rounded bg-gray-100 border focus:outline-none focus:border-blue-500" placeholder="Company">
+                        </div>
+                        <input type="email" class="w-full px-4 py-3 rounded bg-gray-100 border focus:outline-none focus:border-blue-500 mb-4" placeholder="Email Address">
+                        <select id="product-select" class="w-full px-4 py-3 rounded bg-gray-100 border focus:outline-none focus:border-blue-500 mb-4">
+                            <option>Inquiry about GCB Series</option>
+                            <option>Inquiry about Gardening Pumps</option>
+                            <option>Inquiry about Stainless Steel Pumps</option>
+                            <option>General Inquiry</option>
+                        </select>
+                        <textarea class="w-full px-4 py-3 rounded bg-gray-100 border focus:outline-none focus:border-blue-500 h-24 mb-4" placeholder="Message..."></textarea>
+                        <button type="button" onclick="alert('Message sent to Monica!')" class="w-full bg-blue-600 text-white font-bold py-3 rounded hover:bg-blue-700 transition">
+                            Send Inquiry
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Simplified Footer -->
+    <footer class="bg-gray-900 text-gray-500 py-8 text-center text-sm">
+        <div class="container mx-auto px-6">
+            <p>&copy; 2025 HUNG PUMP INDUSTRIAL CO., LTD. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function scrollToContact(productName) {
+            const select = document.getElementById('product-select');
+            // Try to match the product name to an option text
+            for (let i = 0; i < select.options.length; i++) {
+                if (select.options[i].text.includes(productName)) {
+                    select.selectedIndex = i;
+                    break;
+                }
+            }
+            document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
